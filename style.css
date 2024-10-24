@@ -1,15 +1,38 @@
 .hero-image{
     background-image: url("./images/ab67616d0000b27384e864c4464946acecf15f9c.jpg");
     height: 500px;
-    width: 40%;
-    margin-left: 500px;
-    margin-top: 100px;
+    width: 30%;
+    margin-top: 1px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.hero-text{
-    text-align: center;
-    margin-top: 10px;
+h1{
+    text-align: left;
+    width: 100%;
+    font-size: 6rem;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+h2{
+    margin-left: 20px;
+}
+
+.info{
+    text-align: left;
+    width: 100%;
+    font-size: 4rem;
+    font-style: italic;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 20px;
+}
+
+p{
+    margin-left: 20px;
 }
