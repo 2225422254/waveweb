@@ -1,3 +1,7 @@
+body{
+    background-color:rgba(177, 189, 198, 1) ; 
+}
+
 .hero-image{
     background-image: url("./images/ab67616d0000b27384e864c4464946acecf15f9c.jpg");
     height: 500px;
@@ -9,11 +13,10 @@
 }
 
 h1{
-    text-align: left;
+    text-align: center;
     width: 100%;
     font-size: 6rem;
     font-style: italic;
-    margin-left: 20px;
 }
 
 h2{
@@ -35,4 +38,30 @@ h2{
 
 p{
     margin-left: 20px;
+}
+
+button{
+    line-height: 1;
+    width: 500px;
+    height: 150px;
+    margin-left: 700px;
+    margin-top: 50px;
+    background-color: rgb(171, 218, 236);
+}
+
+
+h2{
+    margin-right: 500px;
+}
+
+.content2{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    margin-left: 300px;
+}
+
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 270px;
 }
